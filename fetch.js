@@ -1,9 +1,9 @@
 (function(self) {
   'use strict';
 
-  if (self.fetch) {
-    return
-  }
+  // if (self.fetch) {
+  //   return
+  // }
 
   var support = {
     searchParams: 'URLSearchParams' in self,
